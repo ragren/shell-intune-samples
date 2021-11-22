@@ -427,7 +427,7 @@ function installPKG () {
 
     # Update Octory monitor
     updateOctory installing
-
+    echo "test1"
     # Remove existing files if present
     if [[ -d "/Applications/$app" ]]; then
         rm -rf "/Applications/$app"
